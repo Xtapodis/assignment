@@ -6,10 +6,10 @@
 * [Setup](#setup)
 
 ## General info
-This project is a simple REST API service. The web app has a button that makes a request to the service and returns a greeting message as response.
+This project is a simple REST API service. The web app has a button that makes a GET request to the service and returns a greeting message as response.
 	
 ## Requirements
-To build this project without any errors/issues, the following requirements needs to be satisfied
+To build this project without any errors/issues, the following requirements needs to be satisfied.
 All requirements are in the requirements.txt and listed bellow:
 * blinker==1.6.2
 * click==8.1.3
@@ -27,20 +27,20 @@ All requirements are in the requirements.txt and listed bellow:
 	
 ## Setup
 ### Run Local
-First open your Anaconda Prompt and create your virtual environment using
+First open your Anaconda Prompt and create your virtual environment using:
 ```
 conda create --name env_name python=3.9.13
 ```
 You can replace env_name with the name of your choice and the python version you have.
-Then activate your new environment using
+Then activate your new environment using:
 ```
 conda activate env_name
 ```
-Install the dependencies from the requirements text file from the repository.You can use the followng command.
+Install the dependencies from the requirements text file from the repository.You can use the followng command:
 ```
 pip install -r requirements.txt
 ```
-Once all requirements are met you can navigate to the root folder providing the correct path
+Once all requirements are met you can navigate to the root folder providing the correct path.
 ```
 cd C:\Users\...\assignment
 ```
@@ -51,4 +51,4 @@ You can now open your browser and hit the server IP http://localhost:5000 provid
 
 ### Run on Heroku Cloud Application Platform
 
-You can also run the app on Heroku [here](https://assignmentpd.herokuapp.com/)
+You can also run the demo on Heroku [here](https://assignmentpd.herokuapp.com/)
