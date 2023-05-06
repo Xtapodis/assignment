@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>assignment</title>
+		<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/main.css')}}">
+	</head>
+	<body>
+		<form class="form_1" action={{url_for("hello")}} method="get">
+			<p id="text">{{ hello_text }}</p>
+			<br>
+    		<input type="submit"  value="Press Me" id="press_me" />
+		</form>
+	</body>
+</html>
