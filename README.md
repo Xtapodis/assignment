@@ -36,13 +36,13 @@ Then activate your new environment using:
 ```
 conda activate env_name
 ```
+Navigate to the root folder providing the correct path (the location of the zip folder you extracted).
+```
+cd C:\Users\...\assignment
+```
 Install the dependencies from the requirements text file from the repository.You can use the followng command:
 ```
 pip install -r requirements.txt
-```
-Once all requirements are met you can navigate to the root folder providing the correct path.
-```
-cd C:\Users\...\assignment
 ```
 Then use the `flask run` command
 You should be able to see an output like `* Running on http://localhost:5000`
