@@ -6,7 +6,7 @@
 * [Setup](#setup)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+This project is a simple REST API service. The web app has a button that makes a request to the service and returns a greeting message as response.
 	
 ## Requirements
 To build this project without any errors/issues, the following requirements needs to be satisfied
