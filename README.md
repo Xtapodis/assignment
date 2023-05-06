@@ -50,3 +50,5 @@ You should be able to see an output like `* Running on http://localhost:5000`
 You can now open your browser and hit the server IP http://localhost:5000 provided to run the demo on your local system.
 
 ### Run on Heroku Cloud Application Platform
+
+You can also run the app on Heroku [here](https://assignmentpd.herokuapp.com/)
